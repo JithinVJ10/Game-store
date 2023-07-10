@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header/Header";
+import RowPost from "./Components/Row/RowPost";
 
 function App() {
+  const category = ['shooter','racing','action','Sports']
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <Header />
+      <RowPost title={'SHOOTING'} cat={category[0]} />
+      <RowPost title={'RACING'} cat={category[1]} />
+      <RowPost title={'ACTION'} cat={category[2]} />
+      <RowPost title={'SPORTS'} cat={category[3]} />
+
     </div>
+
   );
 }
 

@@ -1,0 +1,52 @@
+.game {
+    overflow-y: hidden;
+    background-color: black;
+  }
+  
+  .game::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: transparent;
+  }
+  
+  .game::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+
+  .card {
+    border: none;
+    background-color: rgb(37, 36, 36);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #f8f9fa;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+    
+  }
+  
+  .card-footer {
+    background-color: #111315;
+    border-top: none;
+    padding: 1rem;
+  }
+  
+  .btn{
+    background-color: aquamarine;
+  }
+  
